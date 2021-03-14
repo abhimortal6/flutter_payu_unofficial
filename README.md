@@ -5,7 +5,7 @@ Unofficial PayU Money Flutter Plugin supports Android & iOS.
   
 **Flutter Payu Money**  uses Mobile SDK provided by PayU Money Dev Team
 
-![Screenshot 1](https://github.com/abhimortal6/flutter_payu_money/blob/master/screenshots/0.png) ![Screenshot 2](https://github.com/abhimortal6/flutter_payu_money/blob/master/screenshots/1.png) ![Screenshot 3](https://github.com/abhimortal6/flutter_payu_money/blob/master/screenshots/2.png) ![Screenshot 4](https://github.com/abhimortal6/flutter_payu_money/blob/master/screenshots/3.png).
+![Screenshot 1](https://github.com/abhimortal6/flutter_payu_unofficial/blob/master/screenshots/0.png) ![Screenshot 2](https://github.com/abhimortal6/flutter_payu_unofficial/blob/master/screenshots/1.png) ![Screenshot 3](https://github.com/abhimortal6/flutter_payu_unofficial/blob/master/screenshots/2.png) ![Screenshot 4](https://github.com/abhimortal6/flutter_payu_unofficial/blob/master/screenshots/3.png).
 
 
 ##  Getting started
