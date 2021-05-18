@@ -9,11 +9,17 @@
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/flutter_payu_unofficial/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/flutter_payu_unofficial/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/example/ios/.symlinks/plugins/flutter_payu_unofficial/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/Flutter/App.framework" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/Flutter/Flutter.framework" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/Pods" />
+      <excludeFolder url="file://$MODULE_DIR$/example/ios/Runner.xcworkspace/xcuserdata" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Flutter Plugins" level="project" />
