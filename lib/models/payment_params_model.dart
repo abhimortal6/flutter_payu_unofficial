@@ -1,30 +1,75 @@
-import 'package:flutter/foundation.dart';
-
 ///Payment parameters required before starting a payment
 ///Visit official PayUMoney official documentation for hash building formula
 class PaymentParams {
+  ///Merchant Id from Payu
   String merchantID,
+
+      ///Merchant key from Payu
       merchantKey,
+
+      ///Salt from Payu
+
       salt,
+
+      ///Amount of service/product
       amount,
+
+      ///Transaction ID
       transactionID,
+
+      ///User phone number
       phone,
+
+      ///Product Name
       productName,
+
+      ///User name
       firstName,
+
+      ///User Email
       email,
+
+      ///Success URL
       sURL,
+
+      ///Failure URL
       fURL,
+
+      ///User defined field 1
       udf1,
+
+      ///User defined field 2
       udf2,
+
+      ///User defined field 3
       udf3,
+
+      ///User defined field 4
       udf4,
+
+      ///User defined field 5
       udf5,
+
+      ///User defined field 6
       udf6,
+
+      ///User defined field 7
       udf7,
+
+      ///User defined field 8
       udf8,
+
+      ///User defined field 9
       udf9,
+
+      ///User defined field 10
       udf10,
+
+      ///Hash don't generate this hash locally always use external source/server see example/main.dart for local working
+      ///Refer official documentation for Hash generation formula
       hash;
+
+  ///If true will show logs and environment to testing. False for production
   bool isDebug;
 
   PaymentParams(

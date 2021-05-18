@@ -1,6 +1,7 @@
 import 'package:flutter_payu_unofficial/models/payment_params_model.dart';
 import 'package:flutter_payu_unofficial/utils/constants.dart';
 
+///This is now redundant and not required as Null Safety takes cares of this
 bool validatePaymentParams(PaymentParams paymentParams,
     {bool debugPrint: true}) {
   if (paymentParams.merchantID == null) {

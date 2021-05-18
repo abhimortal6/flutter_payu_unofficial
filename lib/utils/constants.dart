@@ -1,3 +1,4 @@
+///App level Constants for easy management
 class Constants {
   ///Platform channel name
   static const String platformChannelName = "flutterPayu";

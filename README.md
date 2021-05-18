@@ -12,7 +12,7 @@ Unofficial PayU Money Flutter Plugin supports Android & iOS.
 
 Add  dependency in *pubspec.yaml*
 
-`flutter_payu_money: 1.0.1`
+`flutter_payu_money: 1.0.2`
 
  [Follow me on Twitter](https://twitter.com/ab_hi_j)
  
@@ -107,10 +107,10 @@ PaymentParams _paymentParam = PaymentParams(
 // returns PayuPaymentResult object
 
 PayuPaymentResult _paymentResult = await FlutterPayUMoney.initiatePayment(
-				paymentParams: _paymentParam, 
-				showCompletionScreen: false);
-				//false will not show in built success/failure screens
-				//default is true
+		paymentParams: _paymentParam, 
+		showCompletionScreen: false);
+		//false will not show in built success/failure screens
+		//default is true
 
 ```
 

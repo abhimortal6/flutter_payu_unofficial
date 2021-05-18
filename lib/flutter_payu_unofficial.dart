@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_payu_unofficial/models/payment_params_model.dart';
 import 'package:flutter_payu_unofficial/models/payment_result.dart';
@@ -16,7 +15,10 @@ class FlutterPayuUnofficial {
   ///Use showCompletionScreen for inbuilt completion screen from native SDK
   ///Use official guide for Hash generation
   static Future<PayuPaymentResult> initiatePayment({
+    ///Requires PaymentParams
     required PaymentParams paymentParams,
+
+    ///If enabled shows Native SDK's inbuilt completion screen
     bool showCompletionScreen: true,
   }) async {
     if (validatePaymentParams(paymentParams)) {
