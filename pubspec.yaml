@@ -1,11 +1,11 @@
 name: flutter_payu_unofficial
 description: Unofficial PayU Money Flutter Plugin supports Android & iOS.
-version: 1.0.0
-homepage: https://blog.joshsoftware.com/
+version: 1.0.1
+homepage: https://github.com/abhimortal6/flutter_payu_money
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.20.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
 
 dependencies:
   flutter:

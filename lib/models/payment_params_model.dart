@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 
+///Payment parameters required before starting a payment
+///Visit official PayUMoney official documentation for hash building formula
 class PaymentParams {
   String merchantID,
       merchantKey,
@@ -26,28 +28,28 @@ class PaymentParams {
   bool isDebug;
 
   PaymentParams(
-      {@required this.merchantID,
-      @required this.merchantKey,
-      @required this.salt,
-      @required this.amount,
-      @required this.transactionID,
-      @required this.phone,
-      @required this.productName,
-      @required this.firstName,
-      @required this.email,
-      @required this.sURL,
-      @required this.fURL,
-      @required this.udf1,
-      @required this.udf2,
-      @required this.udf3,
-      @required this.udf4,
-      @required this.udf5,
-      @required this.udf6,
-      @required this.udf7,
-      @required this.udf8,
-      @required this.udf9,
-      @required this.udf10,
-      @required this.hash,
+      {required this.merchantID,
+      required this.merchantKey,
+      required this.salt,
+      required this.amount,
+      required this.transactionID,
+      required this.phone,
+      required this.productName,
+      required this.firstName,
+      required this.email,
+      required this.sURL,
+      required this.fURL,
+      required this.udf1,
+      required this.udf2,
+      required this.udf3,
+      required this.udf4,
+      required this.udf5,
+      required this.udf6,
+      required this.udf7,
+      required this.udf8,
+      required this.udf9,
+      required this.udf10,
+      required this.hash,
       this.isDebug: false});
 
   Map<String, dynamic> toMap() => {

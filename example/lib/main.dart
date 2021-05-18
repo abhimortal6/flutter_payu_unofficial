@@ -25,14 +25,23 @@ class _MyAppState extends State<MyApp> {
     super.initState();
   }
 
-  TextEditingController _merchantIDTextFieldController = TextEditingController(text: merchantID);
-  TextEditingController _merchantKeyTextFieldController = TextEditingController(text: merchantKey);
-  TextEditingController _saltTextFieldController = TextEditingController(text: salt);
-  TextEditingController _amountTextFieldController = TextEditingController(text: "100");
-  TextEditingController _transactionIDTextFieldController = TextEditingController(text: DateTime.now().millisecondsSinceEpoch.toString());
-  TextEditingController _nameTextFieldController = TextEditingController(text: "Test Name");
-  TextEditingController _productInfoTextFieldController = TextEditingController(text: "Test Product");
-  TextEditingController _emailTextFieldController = TextEditingController(text: "Test@test.com");
+  TextEditingController _merchantIDTextFieldController =
+      TextEditingController(text: merchantID);
+  TextEditingController _merchantKeyTextFieldController =
+      TextEditingController(text: merchantKey);
+  TextEditingController _saltTextFieldController =
+      TextEditingController(text: salt);
+  TextEditingController _amountTextFieldController =
+      TextEditingController(text: "100");
+  TextEditingController _transactionIDTextFieldController =
+      TextEditingController(
+          text: DateTime.now().millisecondsSinceEpoch.toString());
+  TextEditingController _nameTextFieldController =
+      TextEditingController(text: "Test Name");
+  TextEditingController _productInfoTextFieldController =
+      TextEditingController(text: "Test Product");
+  TextEditingController _emailTextFieldController =
+      TextEditingController(text: "Test@test.com");
 
   Future<void> pay() async {
     PaymentParams _paymentParam = PaymentParams(
@@ -57,7 +66,8 @@ class _MyAppState extends State<MyApp> {
       udf8: "",
       udf9: "",
       udf10: "",
-      hash: "", //Hash is required will initialise with empty string now to set actuall hash later
+      hash:
+          "", //Hash is required will initialise with empty string now to set actuall hash later
       isDebug: true, // true for Test Mode, false for Production
     );
 
@@ -69,7 +79,8 @@ class _MyAppState extends State<MyApp> {
 
     try {
       PayuPaymentResult _paymentResult =
-          await FlutterPayuUnofficial.initiatePayment(paymentParams: _paymentParam, showCompletionScreen: true);
+          await FlutterPayuUnofficial.initiatePayment(
+              paymentParams: _paymentParam, showCompletionScreen: true);
 
       //Checks for success and prints result
 

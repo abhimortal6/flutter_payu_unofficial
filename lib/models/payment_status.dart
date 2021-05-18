@@ -1,3 +1,4 @@
+///Enums for Payment Result Status
 class PayuPaymentStatus {
   static String get success => "success";
   static String get failed => "failed";
