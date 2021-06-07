@@ -186,7 +186,7 @@ public class FlutterPayuUnofficialPlugin implements FlutterPlugin, MethodCallHan
       HashMap<String, Object> innerResponse = new HashMap<>();
       innerResponse.put("status","cancelled");
       response.put("result", innerResponse);
-      this.result.success(response);
+      if(this.result != null)this.result.success(response);
     }
     return false;
   }
